@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'dr_huilo';
+    src: url('../fonts/irelandkyr.ttf') format('truetype');
+}
+body::-webkit-scrollbar {
+    width: 6px;/* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0, 0);/* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(252, 252, 252);
+}
+
+
+
+body {
+    background-color: #000;
+}
+
+/* font-family: "Libre Barcode 128 Text", system-ui; */
+/* font-family: "Poiret One", sans-serif; */
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(20%); /* Измените значение, чтобы сделать видео темнее */
+
+  }
+  
+.main_info {
+    margin: 150px;
+    color: white;
+    letter-spacing: 8px;
+    font-size: 120px;
+    font-family: "dr_huilo";
+}
+
+.info {
+    padding-top: 25px;
+    font-size: 22px;
+    font-family: "Poiret One", sans-serif;
+}
+
+.btn {
+    position: relative;
+    font-family: "Poiret One", sans-serif;    
+    color: white;
+    background-color: #ffffff00;
+    font-size: 26px;
+    margin-top: 170px;
+    margin-left: 50px;
+    letter-spacing: 8px;
+    padding: 10px;
+    left: 30%;   
+    transition: all .3s ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.3);
+    color: rgb(225, 0, 0);
+    transition: all .3s;
+}
+
+#act {
+    margin-left: 250px;
+}
