@@ -48,6 +48,7 @@ video {
 }
 
 .btn {
+    display: inline-block; /* <-- added declaration */
     position: relative;
     font-family: "Poiret One", sans-serif;    
     color: white;
@@ -58,7 +59,6 @@ video {
     letter-spacing: 8px;
     padding: 10px;
     left: 30%;   
-    display: inline-block; /* <-- added declaration */
     transition: all .3s ease-in-out;
 }
 .btn:hover {
