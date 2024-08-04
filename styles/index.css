@@ -1,0 +1,40 @@
+/* font-family: "Libre Barcode 128 Text", system-ui; */
+/* font-family: "Poiret One", sans-serif; */
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(20%); /* Измените значение, чтобы сделать видео темнее */
+
+  }
+  
+
+
+.btn {
+    display: inline-block; /* <-- added declaration */
+    position: relative;
+    font-family: "Poiret One", sans-serif;    
+    color: white;
+    background-color: #ffffff00;
+    font-size: 26px;
+    margin-top: 170px;
+    margin-left: 50px;
+    letter-spacing: 8px;
+    padding: 10px;
+    left: 30%;   
+    transition: all .3s ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.3) !important;
+    color: rgb(225, 0, 0);
+    transition: all .3s;
+}
+
+#auc {
+    margin-left: 250px;
+}
